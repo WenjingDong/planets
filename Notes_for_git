@@ -1,1 +1,4 @@
 git show HEAD~2 mars.txt shows what changes we made "at" an older commit as well as commit message, rather than the "differences" between a commit and our working directory
+HEAD records the last saved commit
+
+git checkout -f master mars.txt: restore to the last commit
