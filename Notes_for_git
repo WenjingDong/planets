@@ -3,3 +3,4 @@ HEAD records the last saved commit
 
 git checkout -f master mars.txt: restore to the last commit
 -f : force
+origion: Git uses this name be default when we clone a repository.
