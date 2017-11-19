@@ -3,3 +3,7 @@ HEAD records the last saved commit
 
 git checkout -f master mars.txt: restore to the last commit
 -f : force
+It's possible to ignore a subfolder only, eg add results/plots/ to .gitignore
+
+*.data #ignore all data files
+!final.data # except final.data
