@@ -2,8 +2,11 @@ git show HEAD~2 mars.txt shows what changes we made "at" an older commit as well
 HEAD records the last saved commit
 
 git checkout -f master mars.txt: restore to the last commit
--f : force
+-f :force
+
 It's possible to ignore a subfolder only, eg add results/plots/ to .gitignore
 
 *.data #ignore all data files
 !final.data # except final.data
+
+origin: Git uses this name be default when we clone a repository.
