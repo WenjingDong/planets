@@ -10,3 +10,5 @@ It's possible to ignore a subfolder only, eg add results/plots/ to .gitignore
 !final.data # except final.data
 
 origin: Git uses this name be default when we clone a repository.
+
+If you want to save changes made by checkout, add and commit it.
