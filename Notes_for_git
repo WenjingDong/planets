@@ -2,3 +2,4 @@ git show HEAD~2 mars.txt shows what changes we made "at" an older commit as well
 HEAD records the last saved commit
 
 git checkout -f master mars.txt: restore to the last commit
+-f : force
